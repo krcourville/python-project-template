@@ -21,4 +21,4 @@ python -m pytest
 ## References
 
 - [pytest - Good Integration Practices](https://docs.pytest.org/en/reorganize-docs/goodpractices.html)
--
+- [python mono repo sample](https://github.com/ya-mori/python-monorepo)
