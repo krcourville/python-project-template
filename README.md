@@ -47,3 +47,4 @@ Intellisense will also work with no additional steps.
 
 - [pytest - Good Integration Practices](https://docs.pytest.org/en/reorganize-docs/goodpractices.html)
 - [python mono repo sample](https://github.com/ya-mori/python-monorepo)
+- [poetry](https://python-poetry.org/) (Poetry is not currently part of the template, just borrowed from its project structure)
