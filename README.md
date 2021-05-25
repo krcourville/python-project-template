@@ -7,8 +7,8 @@ Simple start template for use with multiple AWS Lambdas.
 
 ## Benefits of this template
 
-- No additional software required
-- tests just work from terminal and VS Code
+- No additional software or package managers required
+- tests "just work" from terminal and VS Code
 - test do not have to import `src`
 - Minimial VS Code Tooling required
 
