@@ -32,6 +32,17 @@ cd project1
 python -m pytest
 ```
 
+## Use VS Code
+
+Assuming installation of recommended extensions, unit tests will just work with no additional steps
+
+Intellisense will also work with no additional steps.
+
+## TODO
+
+- [ ] Linting
+- [ ] Pre-commit hook
+
 ## References
 
 - [pytest - Good Integration Practices](https://docs.pytest.org/en/reorganize-docs/goodpractices.html)
