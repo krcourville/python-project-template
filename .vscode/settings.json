@@ -1,0 +1,6 @@
+{
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
+  "pythonTestExplorer.testFramework": "pytest",
+  "python.testing.cwd": "project1"
+}
