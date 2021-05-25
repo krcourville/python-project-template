@@ -14,10 +14,12 @@ Simple start template for use with multiple AWS Lambdas.
 
 ## Caveats of template
 
-- assuming use of aws sam and no additoinal build steps,
+- assuming use of aws sam and no additional build steps,
   same code is deployed to each lambda. Possibly a concern
   for large projects or scenarios where it is desired to not deploy
   a large library to all lambdas.
+  - Can possibly be offset by lambda layers (which adds some complexity to code and cloudformation)
+  - Can possibly of offset by using custom build tasks via makefile (which aws sam seems to support) to only copy the code/modules you want for each lambda.
 
 ## Getting Started
 
