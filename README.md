@@ -23,7 +23,17 @@ Simple start template for use with multiple AWS Lambdas.
 
 ## Getting Started
 
-```bash
+### Create a `.env` file
+
+```sh
+cp .env-defaults .env
+# now edit the .env file and fill it out
+# WARNING: secrets go in here, do not commit to source control!
+```
+
+### Set up virtual environment and test
+
+```sh
 # set up env
 python -m venv .venv
 . .venv/bin/activate
