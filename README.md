@@ -9,7 +9,7 @@ Simple start template for use with multiple AWS Lambdas.
 
 - No additional software or package managers required
 - tests "just work" from terminal and VS Code
-- test do not have to import `src`
+- tests do not have to import `src`
 - Minimial VS Code Tooling required
 
 ## Caveats of template
@@ -26,7 +26,8 @@ Simple start template for use with multiple AWS Lambdas.
 ```bash
 # set up env
 python -m venv .venv
-source .venv/bin/activate
+. .venv/bin/activate
+python -m pip install --upgrade pip
 pip install -r requirements-dev.txt
 
 # run unit tests
@@ -42,8 +43,10 @@ Intellisense will also work with no additional steps.
 
 ## TODO
 
+- [ ] Services and Dependency injection
 - [ ] Linting
 - [ ] Pre-commit hook
+- [ ] [AWS Lambda PowerTools](https://github.com/awslabs/aws-lambda-powertools-python)
 
 ## References
 
